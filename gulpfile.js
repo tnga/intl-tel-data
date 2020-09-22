@@ -21,6 +21,7 @@ function transpile() {
       ]}, {
       noConflict: true,
       file: 'intlTelData.js',
+      name: 'intlTelData',
       format: 'umd',
     }))
     .pipe(dest('dist/'))

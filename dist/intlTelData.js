@@ -1,10 +1,10 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-  typeof define === 'function' && define.amd ? define('index', factory) :
+  typeof define === 'function' && define.amd ? define('intlTelData', factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, (function () {
-    var current = global.index;
-    var exports = global.index = factory();
-    exports.noConflict = function () { global.index = current; return exports; };
+    var current = global.intlTelData;
+    var exports = global.intlTelData = factory();
+    exports.noConflict = function () { global.intlTelData = current; return exports; };
   }()));
 }(this, (function () { 'use strict';
 
