@@ -1,7 +1,7 @@
 {
   "name": "intl-tel-data",
   "version": "1.0.0",
-  "description": "A JavaScript tiny library for international telephone numbers  ISO 3166 data",
+  "description": "A JavaScript tiny library for ISO 3166 data of international telephone numbers",
   "main": "./dist/intlTelData.js",
   "module": "index.js",
   "scripts": {
